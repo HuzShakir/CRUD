@@ -45,6 +45,8 @@ class Application extends BaseApplication
 
         $this->addPlugin('DebugKit');
 
+        $this->addPlugin('DebugKit');
+
         // Call parent to load bootstrap from files.
         parent::bootstrap();
 
